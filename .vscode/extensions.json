@@ -1,0 +1,29 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=827846
+    // for the documentation about the extensions.json format
+    "recommendations": [
+        "zhuangtongfa.material-theme",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.debugpy",
+        "ms-python.pylint",
+        "ms-python.black-formatter",
+        "ms-python.isort",
+        "GitHub.remotehub",
+        "GitHub.vscode-pull-request-github",
+        "github.vscode-github-actions",
+        "github.copilot",
+        "github.copilot-chat",
+        "mikestead.dotenv",
+        "tamasfe.even-better-toml",
+        "redhat.vscode-yaml",
+        "DavidAnson.vscode-markdownlint",
+        "njpwerner.autodocstring",
+        "eamodio.gitlens",
+        "donjayamanne.githistory",
+        "felipecaputo.git-project-manager",
+        "Gruntfuggly.todo-tree",
+        "mutantdino.resourcemonitor",
+        "ms-azuretools.vscode-docker"
+    ]
+}

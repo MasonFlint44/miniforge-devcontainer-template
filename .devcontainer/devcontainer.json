@@ -1,0 +1,42 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/base:1-bookworm",
+	"features": {
+		"ghcr.io/rocker-org/devcontainer-features/miniforge:1": {},
+		"ghcr.io/devcontainers/features/git:1": {},
+		"ghcr.io/devcontainers/features/git-lfs:1": {},
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {},
+		"ghcr.io/devcontainers/features/docker-outside-of-docker:1": {},
+		"ghcr.io/devcontainers/features/github-cli:1": {},
+		"ghcr.io/devcontainers/features/python:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"zhuangtongfa.material-theme",
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"ms-python.debugpy",
+				"ms-python.pylint",
+				"ms-python.black-formatter",
+				"ms-python.isort",
+				"GitHub.remotehub",
+				"GitHub.vscode-pull-request-github",
+				"github.vscode-github-actions",
+				"github.copilot",
+				"github.copilot-chat",
+				"mikestead.dotenv",
+				"tamasfe.even-better-toml",
+				"redhat.vscode-yaml",
+				"DavidAnson.vscode-markdownlint",
+				"njpwerner.autodocstring",
+				"eamodio.gitlens",
+				"donjayamanne.githistory",
+				"felipecaputo.git-project-manager",
+				"Gruntfuggly.todo-tree",
+				"mutantdino.resourcemonitor",
+				"ms-azuretools.vscode-docker"
+			]
+		}
+	},
+	"postCreateCommand": "chmod +x .scripts/*.sh && ./.scripts/post-create.sh"
+}

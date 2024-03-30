@@ -1,0 +1,6 @@
+# Dependencies for frozen environment
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+    - glom
